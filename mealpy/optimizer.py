@@ -188,7 +188,7 @@ class Problem:
                 exit(0)
 
 
-class Optimizer(Problem):
+class Root(Problem):
     """ This is base class of all Algorithms """
 
     ## Assumption the A solution with format: [position, [target, [obj1, obj2, ...]]]
