@@ -215,7 +215,7 @@ class Root(Problem):
                 "obj_weight": list weights for all your objectives (Optional, default = [1, 1, ...1])
              }
         """
-        super(Optimizer, self).__init__(problem)
+        super(Root, self).__init__(problem)
         self.epoch, self.pop_size = None, None
         self.solution, self.loss_train = None, []
         self.history_list_g_best = []           # List of global best solution found so far in all previous generations
